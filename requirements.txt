@@ -1,0 +1,37 @@
+# --- Core Deep Learning & ML Frameworks ---
+# For the "from scratch" Vision Transformer and data pipeline
+tensorflow
+
+# For the Hugging Face ViT example and ONNX export
+torch
+torchvision
+
+# For using pre-trained models like the initial ViT
+transformers
+
+# --- Data Handling and Manipulation ---
+# For numerical operations and handling image arrays
+numpy
+
+# For reading and managing the labels.csv file
+pandas
+
+# Used for various ML utilities and metrics
+scikit-learn
+
+
+# --- Geospatial Data Handling ---
+# The primary library for reading multi-band GeoTIFF satellite images
+rasterio
+
+
+# --- Model Optimization & Deployment (NVIDIA Ecosystem) ---
+# # For converting models to the ONNX intermediate format
+# onnx
+
+# # The Python bindings for NVIDIA's TensorRT inference optimizer
+# # IMPORTANT: You must install the main TensorRT SDK from the NVIDIA Developer website first for this to work.
+# nvidia-tensorrt
+
+# # For direct GPU memory management when running the TensorRT engine
+# pycuda
